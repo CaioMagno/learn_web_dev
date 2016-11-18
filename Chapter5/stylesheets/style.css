@@ -1,0 +1,104 @@
+body {
+	background: #f9e933;
+	font-size: 100%;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header, main, footer {
+	min-width: 855px;
+	padding: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px
+	margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main .container {
+	float: left;
+	width: 570px;
+}
+
+main img{
+	float: right;
+	width: 285px;
+}
+
+footer .contact {
+	float: left;
+	width: 570px;	
+}
+
+footer .sitemap {
+	float: right;
+	width: 285px;	
+}
+
+h1, h2, h3 {
+	font-family: 'ubuntu', sans-serif;
+}
+
+header, main {
+	border-bottom: solid;
+	border-bottom-color: dimgray;
+}
+
+header h1 {
+	font-size: 3em;
+	font-style: italic;
+	font-style: bold;
+	color: dimgray;
+	margin-bottom: 20px;
+}
+
+header nav a {
+	color:gray;
+}
+
+main h2 {
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+main h3 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+footer h5 {
+	font-size: larger;
+	margin-bottom: 10px;
+}
+
+footer p {
+	margin-bottom: 2px;
+}
+
+footer p.name_footer {
+	font-style: italic;
+	font-size: large;
+	color: dimgray;
+}

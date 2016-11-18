@@ -1,0 +1,44 @@
+body {
+	background: lightcyan;
+	width: 880px;
+	margin: auto;
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+p {
+	color: gray;
+	border:1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.teste {
+	color: red;
+	border:10px solid gray;
+	border-radius: 5px;
+	padding: 10px;	
+}
+
+a {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+/*Exemplo de pseudoclasse da tag a - altera as propriedades quando é clicada*/
+a:visited {
+	color: magenta;
+}
+
+/*Altera as propriedades quando o mouse está sobre o link*/
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	width: 200px;
+	float: right; /*faz o elemento sair do fluxo vertical em blocos e o faz flutar a direita ou a esquerd*a/
+}

@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "Droid Sans", sans-serif;
+	font-size: medium;
+	padding-bottom: 5px;
+}
+
+body {
+	width: 855px;
+	margin: auto;
+}
+
+header {
+	border-bottom: solid;
+	overflow: auto;
+}
+
+header h1 {
+	font-family: "ubuntu", sans-serif;
+	font-size: xx-large;
+	float: left;
+}
+
+header p {
+	font-family: "Droid Sans", sans-serif;
+	font-size: medium;
+	font-style: italic;
+
+	float: right;
+}
+
+main {
+	margin-top: 20px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+main section.comment-input {
+	float: left;
+	width: 285px;
+}
+
+main section.comment-input input{
+	margin-right: 5px;
+}
+
+main section.comment-input button{
+	width: 30px;
+	font-family: "Droid Sans", sans-serif;
+	font-style: bold;
+}
+
+main section.comments {
+	float:right;
+	width: 570px;
+}
+
+main section.comments p {
+	margin: 15px;
+}
+
+main section.comments p:nth-child(even) {
+	background: lavender;
+}
+
+main section.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+
+footer {
+	border-top: solid;
+	font-size: small;
+	font-style: italic;
+}
